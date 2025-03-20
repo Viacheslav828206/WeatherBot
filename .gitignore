@@ -1,0 +1,23 @@
+# Ігноруємо віртуальне середовище Python
+.venv/
+env/
+
+# Кеш Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Лог-файли
+*.log
+
+# Чутливі дані (API-ключі)
+.env
+config.json
+
+# База даних користувачів
+weather_bot.db
+
+# Файли з налаштуваннями IDE
+.vscode/
+.idea/
