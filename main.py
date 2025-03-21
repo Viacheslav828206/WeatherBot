@@ -242,6 +242,7 @@ async def handle_time_input(update: Update, context: ContextTypes.DEFAULT_TYPE) 
     except Exception as e:
         logging.error(f"Помилка: {str(e)}")
         await update.message.reply_text("‼️ Сталася помилка")
+        
 
 def main() -> None:
     application = Application.builder()\
